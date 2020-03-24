@@ -1,0 +1,90 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 50%;
+    font-family: 'Lato', sans-serif;
+    color: rgb(53, 53, 53);
+    background-image: url(../image/background.jpg);
+}
+.content-box{
+    margin: 0;
+    border: 1px solid rgba(121, 121, 121, 0.527);
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    margin-top: 15%;
+    background-color: rgba(255, 255, 255, 0.432);
+}
+.areg{
+    text-decoration: none;
+    color: crimson;
+}
+.areg:hover{
+    text-decoration: none;
+    color: rgb(5, 204, 5);
+}
+.areg:focus{
+    text-decoration: none;
+    color: rgb(38, 26, 211);
+}
+.authorization-input{
+    width: 50%;
+    height: 40px;
+    margin: 15px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid rgb(196, 196, 196);
+    background-color: rgba(255, 255, 255, 0.418);
+}
+.authorization-input:visited{
+    width: 50%;
+    height: 40px;
+    margin: 15px;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: inset 0 0 5px rgb(82, 248, 82);
+    border: 1px solid rgb(196, 196, 196);
+    background-color: rgba(255, 255, 255, 0.418);
+}
+.authorization-button{
+    width: 50%;
+    height: 30px;
+    background-color: rgb(228, 228, 228);
+    border: 1px solid rgb(196, 196, 196);
+    color: rgb(54, 54, 54);
+}
+.authorization-button:focus{
+    width: 50%;
+    height: 30px;
+    background-color: rgba(82, 248, 82, 0.616);
+    border: 1px solid rgb(196, 196, 196);
+    color: rgb(54, 54, 54);
+}
+.card-box{
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 10px;
+    padding: 30px;
+    width: 75%;
+    text-align: left;
+    margin-top: 15%;
+    background-color: rgba(255, 255, 255, 0.432);
+}
+.icon{
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(82, 248, 82);
+    border-radius: 20px;
+}
+#user-title{
+    float: right;
+    margin-right: 15%;
+}
+.error{
+    margin-top: 15px;
+    color: tomato;
+}
+.exit
+{
+    text-decoration: none;
+}
